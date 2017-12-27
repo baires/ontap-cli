@@ -15,7 +15,7 @@ Or
 yarn global add ontap-cli
 ```
 
-## Demo 
+## Demo
 
 [![asciicast](https://asciinema.org/a/dBgFreIv8m5qaniIftFnuYeR4.png)](https://asciinema.org/a/dBgFreIv8m5qaniIftFnuYeR4)
 
@@ -35,7 +35,8 @@ ontap-cli --venue colegiales
 
 
 ```
---venue <ID>      Joint to check: palermo, colegiales, san telmo, belgrano, retiro or boedo. Default Palermo
+--full             Get relevant information about the joint
+--venue <ID>       Ex: palermo, colegiales, san telmo, belgrano, retiro or boedo. Default Palermo
 -h, --help         Display help
 -V, --version      Display version
 --no-color         Disable colors
