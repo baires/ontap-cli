@@ -9,9 +9,13 @@
     "install": "^0.10.2",
     "ora": "^1.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "standard-version": "^2.4.0",
+    "makeshift": "^1.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
