@@ -36,9 +36,8 @@ ontap-cli --venue colegiales
 
 ```
 --full             Get relevant information about the joint
---venue <ID>       Ex: palermo, colegiales, san telmo, belgrano, retiro or boedo. Default Palermo
+--venue <Joint>    Ex: palermo, colegiales, san telmo, belgrano, retiro or boedo. Default Palermo
 -h, --help         Display help
--V, --version      Display version
 --no-color         Disable colors
 --quiet            Quiet mode - only displays warn and error messages
 -v, --verbose      Verbose mode - will also output debug messages
