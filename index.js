@@ -59,13 +59,13 @@ prog
         if (response.json.result.opening_hours.open_now) {
           setTimeout(() => {
             spinner.color = "green";
-            spinner.text = "🍻🍻 Yes!";
+            spinner.text = "🍻🍻  Yes!";
             spinner.succeed();
           }, 2000);
         }
         setTimeout(() => {
           spinner.color = "red";
-          spinner.text = "☹️☹️ No!";
+          spinner.text = "☹️☹️  No!";
           spinner.succeed();
         }, 1000);
       })
