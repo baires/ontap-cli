@@ -23,7 +23,7 @@ prog
     });
     spinner.start();
 
-    function theTest(val) {
+    function getJoint(val) {
       let placeID = "";
       switch (val) {
         case "palermo":
@@ -52,7 +52,7 @@ prog
 
     googleMapsClient
       .place({
-        placeid: theTest(options.venue)
+        placeid: getJoint(options.venue)
       })
       .asPromise()
       .then(response => {
