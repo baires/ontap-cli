@@ -2,13 +2,17 @@
   "name": "ontap-cli",
   "version": "1.2.0",
   "description": "Check is ontap is open from your terminal",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "dependencies": {
     "@google/maps": "^0.4.5",
     "caporal": "^0.9.0",
     "install": "^0.10.2",
     "ora": "^1.3.0"
   },
+  "bin": {
+    "ontap-cli": "./bin/index.js"
+  },
+  "preferGlobal": true,
   "devDependencies": {
     "standard-version": "^2.4.0",
     "makeshift": "^1.0.0"
@@ -21,11 +25,9 @@
     "type": "git",
     "url": "git+https://github.com/baires/ontap-cli.git"
   },
-  "keywords": [
-    "ontap",
-    "cli"
-  ],
-  "author": "Alexis Sgarbossa <alexis@sgarbossa.com.ar> (https://sgarbossa.com.ar)",
+  "keywords": ["ontap", "cli"],
+  "author":
+    "Alexis Sgarbossa <alexis@sgarbossa.com.ar> (https://sgarbossa.com.ar)",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/baires/ontap-cli/issues"
