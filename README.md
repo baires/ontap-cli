@@ -15,6 +15,10 @@ Or
 yarn global add ontap-cli
 ```
 
+## Demo 
+
+[![asciicast](https://asciinema.org/a/dBgFreIv8m5qaniIftFnuYeR4.png)](https://asciinema.org/a/dBgFreIv8m5qaniIftFnuYeR4)
+
 ## Run
 
 ```
