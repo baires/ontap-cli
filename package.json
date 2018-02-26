@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "dependencies": {
     "@google/maps": "^0.4.5",
-    "caporal": "^0.9.0",
+    "caporal": "^0.10.0",
     "cli-table2": "^0.2.0",
     "install": "^0.10.4",
     "ora": "^1.4.0"
