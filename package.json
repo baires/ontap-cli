@@ -8,7 +8,7 @@
     "caporal": "^0.10.0",
     "cli-table2": "^0.2.0",
     "install": "^0.10.4",
-    "ora": "^1.4.0"
+    "ora": "^2.0.0"
   },
   "bin": {
     "ontap-cli": "./bin/index.js"
