@@ -2,6 +2,7 @@
   "name": "ontap-cli",
   "version": "1.6.1",
   "description": "Check is ontap is open from your terminal",
+  "private": true,
   "main": "./lib/index.js",
   "dependencies": {
     "@google/maps": "^0.4.5",
