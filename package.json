@@ -7,7 +7,7 @@
   "dependencies": {
     "@google/maps": "^0.4.5",
     "caporal": "^0.10.0",
-    "cli-table2": "^0.2.0",
+    "cli-table3": "^0.5.0",
     "install": "^0.11.0",
     "ora": "^2.0.0"
   },
