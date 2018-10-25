@@ -1,6 +1,6 @@
 {
   "name": "ontap-cli",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "Check is ontap is open from your terminal",
   "private": true,
   "main": "./lib/index.js",
