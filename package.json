@@ -5,7 +5,7 @@
   "private": false,
   "main": "./lib/index.js",
   "dependencies": {
-    "@google/maps": "^0.5.5",
+    "@google/maps": "^1.0.1",
     "caporal": "^1.1.0",
     "cli-table3": "^0.5.0",
     "install": "^0.12.2",
